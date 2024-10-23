@@ -14,7 +14,8 @@ class CalciTest {
         "4, 0, 0",    
         "-2, -3, 6" 
     })
-    void testMultiply(int a, int b, int expected) {
+    void testMultiply(int a, int b, int expected) 
+    {
         assertEquals(expected, calci.multiply(a, b));
     }
 }
